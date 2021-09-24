@@ -19,3 +19,33 @@ C:\Users\Carson\Documents\Visual Studio 2015\Projects\TextureEdit\TextureEdit\ob
 C:\Users\Carson\Documents\Visual Studio 2015\Projects\TextureEdit\TextureEdit\obj\Debug\TextureEdit.GridIntensity.resources
 C:\Users\Carson\Documents\Visual Studio 2015\Projects\TextureEdit\TextureEdit\obj\Debug\TextureEdit.csprojResolveAssemblyReference.cache
 C:\Users\Carson\Documents\Visual Studio 2015\Projects\TextureEdit\TextureEdit\obj\Debug\TextureEdit.GreyscaleModeDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.AddNoiseDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.CloseConfirm.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.ColorShiftDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.ColorWarning.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.DefaultEditor.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.DownscaleWarning.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.Form1.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.GreyscaleAdjustDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.GreyscaleModeDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.GridIntensity.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.HelpDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.MoreResolutions.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.OverlaySettings.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.Properties.Resources.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.TileView.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.Update.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.UpdateComplete.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.VersionInformationDialog.resources
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.csproj.GenerateResource.cache
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.exe
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.pdb
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\bin\Debug\TextureEdit.exe.config
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\bin\Debug\TextureEdit.exe
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\bin\Debug\TextureEdit.pdb
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\bin\Debug\TgaLib.dll
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.csproj.AssemblyReference.cache
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\obj\Debug\TextureEdit.csproj.CopyComplete
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ryan\source\repos\TextureEditSource\TextureEdit\bin\Debug\Newtonsoft.Json.xml

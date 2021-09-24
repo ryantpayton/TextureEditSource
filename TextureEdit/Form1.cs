@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,7 +57,7 @@ namespace TextureEdit
         bool greyscaleTextureMode = false;
         Point lastPenPoint;
 
-        const string versionId = "v1.20.31";
+        const string versionId = "v1.20.32";
         const bool unreleasedMode = false;
         const string baseTitle = "TextureEdit (" + versionId + ")";
 
@@ -1208,6 +1209,10 @@ namespace TextureEdit
             {
                 File.Delete(nameWithoutExtension + "_normal.tga");
             }
+            if (File.Exists(nameWithoutExtension + ".texture_set.json"))
+            {
+                File.Delete(nameWithoutExtension + ".texture_set.json");
+            }
             if (flipbookMode)
             {
                 workspaceManager.EnforceHeightMap(flipBookReference_normal);
@@ -1239,6 +1244,13 @@ namespace TextureEdit
                     mer.Save(nameWithoutExtension + "_mer.png");
                     normal.Save(nameWithoutExtension + "_normal.png");
                 }
+            }
+            TextureSetJson textureSetJson = new TextureSetJson(nameWithoutExtension);
+            string path = $"{nameWithoutExtension}.texture_set.json";
+            using (StreamWriter file = File.CreateText(path))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(file, textureSetJson);
             }
         }
         private void openTexture(string nameWithoutExtension, bool noFlipBook)
