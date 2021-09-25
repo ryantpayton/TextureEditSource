@@ -27,7 +27,7 @@ namespace TextureEdit
 
         private void continueButton_Click(object sender, EventArgs e)
         {
-            byte[] newTextureEdit = Form1.GetB("https://github.com/ReinaStreufert/TextureEdit/raw/master/TextureEdit.exe");
+            byte[] newTextureEdit = Form1.GetB("https://github.com/ryantpayton/TextureEdit/raw/master/TextureEdit.exe");
             string file = Process.GetCurrentProcess().MainModule.FileName;
             if (File.Exists(file + "_"))
             {

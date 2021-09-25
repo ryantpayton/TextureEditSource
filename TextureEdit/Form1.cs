@@ -57,7 +57,7 @@ namespace TextureEdit
         bool greyscaleTextureMode = false;
         Point lastPenPoint;
 
-        const string versionId = "v1.20.32";
+        const string versionId = "v1.20.33";
         const bool unreleasedMode = false;
         const string baseTitle = "TextureEdit (" + versionId + ")";
 
@@ -177,10 +177,15 @@ namespace TextureEdit
             }
             if (!File.Exists("TgaLib.dll"))
             {
-                byte[] tgaLib = GetB("https://github.com/ReinaStreufert/TextureEdit/raw/master/TgaLib.dll");
+                byte[] tgaLib = GetB("https://github.com/ryantpayton/TextureEdit/raw/master/TgaLib.dll");
                 File.WriteAllBytes("TgaLib.dll", tgaLib);
             }
-            string upVersionString = Get("https://raw.githubusercontent.com/ReinaStreufert/TextureEdit/master/versionid.txt");
+            if (!File.Exists("Newtonsoft.Json.dll"))
+            {
+                byte[] newtonsoftJson = GetB("https://github.com/ryantpayton/TextureEdit/raw/master/Newtonsoft.Json.dll");
+                File.WriteAllBytes("Newtonsoft.Json.dll", newtonsoftJson);
+            }
+            string upVersionString = Get("https://raw.githubusercontent.com/ryantpayton/TextureEdit/master/versionid.txt");
             Console.WriteLine(upVersionString);
             string upVersionId = upVersionString.Split('\n')[0];
             string upVersionDescription = upVersionString.Split('\n')[1];
